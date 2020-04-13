@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Boogle</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/boogle.css">
+    <script type="text/javascript" src="javascript/boogle.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://kit.fontawesome.com/8b968edddd.js" crossorigin="anonymous"></script>
+
+  <link rel="shortcut icon" type="image/x-icon" href="https://centerlyne.com/wp-content/uploads/2016/10/Google_-G-_Logo.svg_.png" />
+  </head>
+  <body>
+    <div class="nav">
+      <ul>
+        <li><a href="https://mail.google.com/mail/u/0/?tab=wm&ogbl">Gmail</a></li>
+        <li><a href="https://www.google.si/imghp?hl=sl&tab=wi&ogbl">Slike</a></li>
+        <div id="applicationsDiv" class="applicationsDiv">
+          <li ><i class="applications fas fa-th"></i></li>
+          <div id="hideMe" class="hideMe">
+            <div id="applicationsList" class="applicationsList">
+
+              <a href="https://myaccount.google.com/?utm_source=OGB&tab=wk&utm_medium=app&pli=1&nlr=1">
+                <div class="option">
+                  <div class="" style="position:relative;">
+                    <i class="fas fa-circle"></i>
+                    <p id="nameTitle">T</p>
+                  </div>
+                  <p>Prijava</p>
+                </div>
+              </a>
+
+              <a href="https://www.google.si/webhp?tab=ww">
+                <div class="option">
+                  <img class="optionIcons" src="https://cdn2.iconfinder.com/data/icons/social-icons-33/128/Google-512.png" alt="Google">
+                  <p>Iskanje</p>
+                </div>
+              </a>
+
+              <a href="https://www.google.si/maps/@46.5580413,15.6382753,15z?hl=sl">
+                <div class="option">
+                  <img class="optionIcons" src="https://developers.google.com/maps/images/maps-icon.svg" alt="Location Marker">
+                  <p>Zemljevidi</p>
+                </div>
+              </a>
+
+              <a href="https://www.youtube.com/?gl=SI&tab=w1">
+                <div class="option">
+                  <img class="optionIcons" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/1280px-YouTube_full-color_icon_%282017%29.svg.png" alt="Youtube">
+                  <p>YouTube</p>
+                </div>
+              </a>
+
+              <a href="https://news.google.com/topstories?hl=sl&tab=wn&gl=SI&ceid=SI:sl">
+                <div class="option">
+                  <img class="optionIcons" src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Google_News_icon.png" alt="Google News">
+                  <p>Novice</p>
+                </div>
+              </a>
+
+              <a href="https://mail.google.com/mail/u/0/?tab=wm#inbox">
+                <div class="option">
+                  <img class="optionIcons" src="http://icons.iconarchive.com/icons/dtafalonso/android-lollipop/512/Gmail-icon.png" alt="Gmail">
+                  <p>Gmail</p>
+                </div>
+              </a>
+
+              <a href="https://contacts.google.com/?hl=sl&tab=wC">
+                <div class="option">
+                  <img class="optionIcons" src="https://upload.wikimedia.org/wikipedia/commons/b/b7/Google_Contacts_logo.png" alt="Contacts">
+                  <p>Stiki</p>
+                </div>
+              </a>
+
+              <a href="https://drive.google.com/drive/my-drive">
+                <div class="option">
+                  <img class="optionIcons" src="http://img.talkandroid.com/uploads/2014/11/google_drive_app_icon-450x450.png" alt="Google Drive">
+                  <p>Drive</p>
+                </div>
+              </a>
+
+              <a href="https://calendar.google.com/calendar/r?tab=wc&pli=1">
+                <div class="option">
+                  <img class="optionIcons" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Google_Calendar_icon.svg/1200px-Google_Calendar_icon.svg.png" alt="Calendar">
+                  <p>Koledar</p>
+                </div>
+              </a>
+
+              <a href="https://translate.google.si/?hl=sl&tab=wT">
+                <div class="option">
+                  <img class="optionIcons" src="https://upload.wikimedia.org/wikipedia/commons/d/db/Google_Translate_Icon.png" alt="Google Translate">
+                  <p>Prevajalnik</p>
+                </div>
+              </a>
+
+              <a href="https://photos.google.com/?tab=wq&pageId=none">
+                <div class="option">
+                  <img class="optionIcons" src="https://maxcdn.icons8.com/Share/icon/Logos/google_photos1600.png" alt="Google Pictures">
+                  <p>Fotografije</p>
+                </div>
+              </a>
+
+              <a href="https://www.google.com/chrome/?brand=CHZO&utm_source=google.com&utm_medium=desktop-app-launcher&utm_campaign=desktop-app-launcher&utm_content=chrome-logo&utm_keyword=CHZO">
+                <div class="option">
+                  <img class="optionIcons" src="https://cdn1.iconfinder.com/data/icons/google_jfk_icons_by_carlosjj/512/chrome.png" alt="Google Chrome">
+                  <p>Chrome</p>
+                </div>
+              </a>
+
+              <a href="https://duo.google.com/?usp=duo_ald">
+                <div id="duo" class="option">
+                  <img class="optionIcons" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Google_Duo_icon.svg/1200px-Google_Duo_icon.svg.png" alt="Duo">
+                  <p>Duo</p>
+                </div>
+              </a>
+
+              <hr>
+
+              <a id="documents" href="https://docs.google.com/document/u/0/">
+                <div  class="option">
+                  <img class="optionIcons" src="http://orig07.deviantart.net/f364/f/2015/170/1/0/google_docs_icon_for_locus_icon_pack_by_droidappsreviewer-d8xwimi.png" alt="Documents">
+                  <p>Dokumenti</p>
+                </div>
+              </a>
+
+              <a  id="tables" href="https://docs.google.com/spreadsheets/u/0/">
+                <div  class="option">
+                  <img class="optionIcons" src="https://maxcdn.icons8.com/Share/icon/Logos/google_sheets1600.png" alt="Sheets">
+                  <p>Preglednice</p>
+                </div>
+              </a>
+
+              <a  id="slides" href="https://docs.google.com/presentation/u/0/">
+                <div  class="option">
+                  <img class="optionIcons" src="http://icons.iconarchive.com/icons/dtafalonso/android-lollipop/512/Slides-icon.png" alt="Slides">
+                  <p>Predstavitve</p>
+                </div>
+              </a>
+
+              <a id="blogger" href="https://www.blogger.com/about/?r=2">
+                <div  class="option">
+                  <img class="optionIcons" src="http://www.freeiconspng.com/uploads/blogger-logo-icon-png-0.png" alt="Blogger">
+                  <p>Blogger</p>
+                </div>
+              </a>
+
+              <a id="hangouts" href="https://hangouts.google.com/">
+                <div  class="option">
+                  <img class="optionIcons" src="http://icons.iconarchive.com/icons/dtafalonso/android-l/256/Hangouts-icon.png" alt="Hangouts">
+                  <p>Pogovori<span class="dissapear">...</span></p>
+                  <p class="ps">Hangouts</p>
+                </div>
+              </a>
+
+              <a id="keep" href="https://keep.google.com/u/0/">
+                <div  class="option">
+                  <img class="optionIcons" src="http://www.google.com/images/icons/product/keep-512.png" alt="Keep">
+                  <p>Google <span class="dissapear">Ke...</span></p>
+                  <p class="ps">Keep</p>
+                </div>
+              </a>
+
+              <a id="jamboard" href="https://jamboard.google.com/">
+                <div  class="option">
+                  <img class="optionIcons" src="https://www.gstatic.com/images/branding/product/1x/jamboard_64dp.png" alt="Jamboard">
+                  <p>Jamboard</p>
+                </div>
+              </a>
+
+              <a id="classroom" href="https://classroom.google.com/">
+                <div  class="option">
+                  <img class="optionIcons" src="https://maxcdn.icons8.com/Share/icon/Logos/google_classroom1600.png" alt="Classroom">
+                  <p>Učilnica</p>
+                </div>
+              </a>
+
+              <a  id="earth" href="https://www.google.com/earth/">
+                <div  class="option">
+                  <img class="optionIcons" src="https://upload.wikimedia.org/wikipedia/commons/f/f0/Google_Earth_Icon.png" alt="earth">
+                  <p>Google <span class="dissapear">Ea...</span></p>
+                  <p class="ps">Earth</p>
+                </div>
+              </a>
+
+
+              <a  id="art" href="https://artsandculture.google.com/?hl=sl">
+                <div  class="option">
+                  <img class="optionIcons" src="https://img.talkandroid.com/uploads/2018/01/google_arts_culture_app_icon.png" alt="art">
+                  <p>Umetnost<span class="dissapear">...</span></p>
+                  <p class="ps">in zgodovina</p>
+                </div>
+              </a>
+
+              <div id="moreFromGoogle">
+                <a href="https://about.google/intl/en/products/?tab=wh"><button type="button" name="button">More from Google</button></a>
+              </div>
+            </div>
+          </div>
+          </div>
+        <li id="account">T
+          <div id="accountList" class="accountList">
+            <div class="info">
+              <div class="logoBackground">
+                <p>T</p>
+              </div>
+              <div class="photo">
+                <div class="background">
+                  <i class="fas fa-camera-retro"></i>
+                </div>
+              </div>
+            </div>
+            <div class="info column">
+              <p>Tomaž Jakša</p>
+              <p>jaksa.tomaz@gmail.com</p>
+              <a href="https://myaccount.google.com/?utm_source=OGB&tab=wk&utm_medium=act"><button id="signInButton" type="button" name="button">Upravljanje računa Google</button></a>
+            </div>
+            <div class="info topBorder">
+              <a href="https://accounts.google.com/signin/v2/identifier?hl=sl&continue=https%3A%2F%2Fwww.google.si%2Fwebhp%3Ftab%3Dww&flowName=GlifWebSignIn&flowEntry=AddSession"><span><i class="fas fa-user-plus"></i>Dodajanje drugega računa</span></a>
+            </div>
+            <div class="info topBorder bottomBorder">
+              <a href="https://www.google.si/?gws_rd=ssl"><button type="button" name="button">Odjava</button></a> 
+            </div>
+            <div class="info">
+              <ul>
+                <a href="https://policies.google.com/privacy?hl=sl"><li>Pravilnik o zasebnosti</li></a>
+                <i class="fas fa-circle"></i>
+                <a href="https://policies.google.com/terms?hl=sl"><li>Pogoji storitve</li></a>
+              </ul>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="main">
+      <div id="googleTitle">
+        <img src="https://logodownload.org/wp-content/uploads/2014/09/google-logo-1.png" alt="Google title">
+      </div>
+      <div id="googleSearch">
+        <i class=" searchIcon fas fa-search"></i>
+        <form id="myForm" action="index.html" method="get">
+          <input id="searchBar" type="text" name="" value="">
+        </form>
+        <div class="keyboardIcon">
+          <i class=" fas fa-keyboard"></i><div class="tooltip">Input Tool</div>
+        </div>
+        <div class="microphoneIcon">
+          <i class=" fas fa-microphone"></i><br><div class="tooltip">Search by voice</div>
+        </div>
+      </div>
+      <div class="buttons">
+        <button id="myButton" type="submit" name="button">Google Search</button>
+
+        <a href="https://www.google.com/doodles"><button  type="submit" name="button">I'm Feeling Lucky</button></a>
+      </div>
+      <p>Google je na voljo v: &nbsp <a id="specialLink" href="https://www.google.si/">English</a> </p>
+    </div>
+    <div class="footer">
+      <div class="country">
+        <p>Slovenija</p>
+      </div>
+      <div class="otherOptions">
+
+          <div class="left">
+            <ul>
+              <li><a href="https://ads.google.com/intl/sl_si/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Oglaševanje</a></li>
+              <li><a href="https://www.google.si/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1#?modal_active=none">Posel</a></li>
+              <li><a href="https://about.google/?utm_source=google-SI&utm_medium=referral&utm_campaign=hp-footer&fg=1">Predstavitev</a></li>
+              <li><a href="https://www.google.com/search/howsearchworks/?fg=1">Kako deluje Iskanje Google</a></li>
+            </ul>
+          </div>
+
+          <div class="right">
+            <ul>
+              <li><a href="https://policies.google.com/privacy?fg=1">Zasebnost</a></li>
+              <li><a href="https://policies.google.com/terms?fg=1">Pogoji</a></li>
+              <li>
+                <a id="settings">Nastavitve</a>
+                <div id="settingsOptions">
+                  <ul>
+                    <li><a href="https://www.google.si/preferences?hl=sl&fg=1">Nastavitve iskanja</a></li>
+                    <li><a href="https://www.google.si/advanced_search?hl=sl&fg=1">Napredno iskanje</a></li>
+                    <li><a href="https://myactivity.google.com/privacyadvisor/search?utm_source=googlemenu&fg=1">Vaši podatki v Iskanju Google</a></li>
+                    <li><a href="https://myactivity.google.com/item?utm_source=google&hl=sl&fg=1&restrict=search">Zgodovina</a></li>
+                    <li><a href="https://support.google.com/websearch/?visit_id=637217174582226331-175247923&hl=sl&rd=2#topic=3378866">Pomoč pri iskanju</a></li>
+                    <li><a href="https://www.google.si/?gws_rd=ssl">Pošlji povratne informacije</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+      </div>
+    </div>
+  </body>
+</html>

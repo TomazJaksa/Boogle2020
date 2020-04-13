@@ -1,0 +1,41 @@
+*{
+  margin:0;
+  padding:0;
+
+  ul {
+    border:solid black 1px;
+
+    li {
+      display:inline-block;
+
+      &:last-of-type {
+          width: 20px;
+          height: 20px;
+          background-color: green;
+      }
+
+      a {
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+
+        &:clicked {
+          color: black;
+        }
+      }
+
+      .applications {
+          font-size: 20px;
+      }
+    }
+
+    &:last-child {
+      width: 30px;
+      height:30px;
+      background-color: green;
+      display:inline-block;
+    }
+
+  }
+
+}
